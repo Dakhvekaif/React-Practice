@@ -1,6 +1,6 @@
 function Chai() {
     return(
-        <h1>Learning in Vite + react</h1>
+        <h1>Chai aur React</h1>
     )
 }
 
