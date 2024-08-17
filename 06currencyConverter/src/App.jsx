@@ -26,13 +26,6 @@ function App() {
   }
 
   return (
-    <div className='flex justify-between'>
-        <div className=' w-full h-screen flex-1 justify-center items-center bg-cover bg-no-repeat'style={{
-            backgroundImage: `url('https://images.pexels.com/photos/1260299/pexels-photo-1260299.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')`,
-        }}
-    >
-    </div>
-    <div className=' flex-1'>
     <div
         className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
         style={{
@@ -83,9 +76,7 @@ function App() {
                 </form>
             </div>
         </div>
-    </div>    
     </div>
-</div>
 );
 }
 
