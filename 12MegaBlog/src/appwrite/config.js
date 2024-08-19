@@ -11,7 +11,7 @@ export class Service{
             .setEndpoint(conf.appwriteUrl)
             .setProject(conf.appwriteProjectId);
             this.databases = new Databases(this.client);
-            this.bucket = new this.bucket(this.client)
+            this.bucket = new this.bucket(this.client)  // check once
     }
 
     async createPost({title, slug, content, featuredImage, status, userId}){
@@ -93,7 +93,7 @@ export class Service{
 
     // file upload services / method
 
-    async uploadFile(file){
+    async uploadFile(file){ 
         try {
             return await this.bucket.createFile(
                 conf.appwriteBucketId,
