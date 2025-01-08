@@ -15,6 +15,9 @@ export default function PostForm({ post }) {
         },
     });
 
+    let str = "" 
+    
+
     const navigate = useNavigate();
     const userData = useSelector((state) => state.auth.userData);
 
